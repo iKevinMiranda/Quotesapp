@@ -8,13 +8,19 @@ Tipografia do sistema, cartão em vidro fosco, modo claro/escuro automático e i
 
 <br />
 
+[![Demo ao vivo](https://img.shields.io/badge/▶_Demo_ao_vivo-quotesapp--amber.vercel.app-000?style=for-the-badge&logo=vercel&logoColor=white)](https://quotesapp-amber.vercel.app/)
+
+<br />
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![API](https://img.shields.io/badge/API-REST-0071E3?style=for-the-badge)
+![Deploy](https://img.shields.io/badge/Deploy-Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
 
 <br />
 
+[Demo ao vivo](https://quotesapp-amber.vercel.app/) ·
 [Funcionalidades](#-funcionalidades) ·
 [O que eu atualizei](#-o-que-eu-atualizei) ·
 [Como rodar](#-como-rodar) ·
@@ -30,6 +36,18 @@ Tipografia do sistema, cartão em vidro fosco, modo claro/escuro automático e i
 O **Quotes App** é um site estático que exibe citações aleatórias em uma interface pensada para ser **limpa, calma e responsiva** — no espírito do design da Apple: muito espaço em branco, hierarquia clara e microinterações discretas.
 
 Este README documenta a **grande atualização** que fiz no projeto: saí de um protótipo básico com Bootstrap e API instável para uma aplicação **completa, confiável e com identidade visual própria**.
+
+A versão publicada está no ar na **[Vercel](https://quotesapp-amber.vercel.app/)** — ideal para testar sem clonar o repositório.
+
+---
+
+## 🌐 Demo ao vivo
+
+| | |
+|---|---|
+| **URL** | [https://quotesapp-amber.vercel.app/](https://quotesapp-amber.vercel.app/) |
+| **Hospedagem** | [Vercel](https://vercel.com/) (deploy contínuo a partir do GitHub) |
+| **O que testar** | Nova citação, copiar, compartilhar (mobile) e modo claro/escuro do sistema |
 
 ---
 
@@ -84,6 +102,7 @@ Este README documenta a **grande atualização** que fiz no projeto: saí de um 
 - Eliminei referências a **`assets/back.jpg`** e **`assets/favicon.png`** inexistentes
 - Corrigi typo no rodapé (**Kevin Miranda**)
 - Atualizei este **README** com documentação clara do que mudou
+- **Deploy na Vercel** — app acessível em [quotesapp-amber.vercel.app](https://quotesapp-amber.vercel.app/)
 
 ---
 
@@ -102,11 +121,15 @@ Este README documenta a **grande atualização** que fiz no projeto: saí de um 
 
 ## ⚙ Como rodar
 
-**Opção 1 — Abrir direto**
+**Opção 1 — Online (recomendado)**
+
+Acesse a demo publicada: **[quotesapp-amber.vercel.app](https://quotesapp-amber.vercel.app/)**
+
+**Opção 2 — Abrir local**
 
 Abra `index.html` no navegador.
 
-**Opção 2 — Servidor local (recomendado)**
+**Opção 3 — Servidor local**
 
 Evita limitações de CORS ao chamar as APIs:
 
@@ -141,6 +164,8 @@ Quotesapp/
 
 ## 📸 Preview
 
+Abra o app em produção: **[quotesapp-amber.vercel.app](https://quotesapp-amber.vercel.app/)**
+
 > 💡 *Dica:* adicione uma captura de tela em `assets/preview.png` e descomente a linha abaixo no README.
 
 <!--
@@ -161,6 +186,6 @@ Projeto desenvolvido no contexto dos estudos **Alura** — evoluído com foco em
 
 **Se uma citação não inspirar hoje, clique de novo.** ☁️
 
-Made with care · 2026
+[Abrir demo na Vercel](https://quotesapp-amber.vercel.app/) · Made with care · 2026
 
 </div>
