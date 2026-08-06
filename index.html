@@ -3,28 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Quotes App</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta name="description" content="Citações inspiradoras com um toque de simplicidade.">
+    <meta name="theme-color" content="#f5f5f7">
+    <title>Citações — Quotes App</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <h1>Citações Inspiradoras</h1>
-        <blockquote class="blockquote mt-4">
-            <p id="quote" class="mb-0">Alteração no web</p>
-        </blockquote>
-        <button id="new-quote" class="btn btn-primary mt-4">Nova Citação</button>
-    </div>
-    <footer class="bg-dark text-white text-center py-4">
-        <div class="container">
-            <p class="mb-0">&copy; 2024 Kevin MIranda. Todos os direitos reservados.</p>
-            <div class="mt-2">
-                <a href="#" class="text-white me-3">Termos de Serviço</a>
-                <a href="#" class="text-white">Política de Privacidade</a>
+    <div class="page">
+        <header class="header">
+            <p class="eyebrow">Quotes App</p>
+            <h1>Citações inspiradoras</h1>
+            <p class="subtitle">Uma frase por vez, com calma.</p>
+        </header>
+
+        <main class="main">
+            <article class="quote-card" aria-live="polite" aria-busy="true">
+                <div class="quote-card__inner">
+                    <p id="quote-text" class="quote-text">Carregando…</p>
+                    <p id="quote-author" class="quote-author"></p>
+                </div>
+                <p id="quote-status" class="quote-status" role="status" hidden></p>
+            </article>
+
+            <div class="actions">
+                <button type="button" id="new-quote" class="btn btn-primary">
+                    <span class="btn-label">Nova citação</span>
+                </button>
+                <button type="button" id="copy-quote" class="btn btn-secondary" disabled>
+                    Copiar
+                </button>
+                <button type="button" id="share-quote" class="btn btn-secondary" disabled hidden>
+                    Compartilhar
+                </button>
             </div>
-        </div>
-    </footer>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; <span id="year"></span> Kevin Miranda</p>
+        </footer>
+    </div>
 </body>
 </html>
